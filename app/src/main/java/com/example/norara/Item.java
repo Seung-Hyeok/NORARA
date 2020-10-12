@@ -1,9 +1,16 @@
+package com.example.norara;
+
 public class Item {
+    String link; // 행사 이미지
     String title; // 행사제목
     String add1; // 주소1
     String add2; // 주소2
     String eventstartdate; // 축제 시작 날짜
     String eventenddate; // 축제 끝나는 날짜
+
+    public String getLink(){
+        return link;
+    }
 
     public String getTitle(){
         return title;
